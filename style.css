@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", serif;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./images/pexels-asad-photo-maldives-1449767.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  border: 1px solid #fff;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: 0.3s ease-in;
+}
+ul li a:hover {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+.logo img {
+  float: left;
+  width: 250px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+ul li.active a {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title h1 {
+  font-size: 50px;
+  font-weight: 300;
+  color: #fff;
+}
+.button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+  margin-right: 4px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
